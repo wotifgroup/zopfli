@@ -11,3 +11,6 @@ lib32:
 
 debug:
 	gcc *.c -g3 -lm -o zopfli
+
+clean:
+	rm *.o
